@@ -1,0 +1,36 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.content {
+  width: 80%;
+  outline-style: solid;
+  height:90vh;
+  margin: 10px;
+}
+
+.column.nav {
+  text-align: center;
+}
+
+.column.nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.column.nav img  {
+  outline-style: solid;
+}
+
+.column.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
