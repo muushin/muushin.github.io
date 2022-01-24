@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+button {
+  font-weight: bold;
+}
+
 .grid-container {
 	display: inline-grid;
 	grid-template-columns: 117px 85vw;
@@ -84,4 +88,13 @@ body {
 .content-text {
   margin: 5px;
   padding: 2px;
+}
+
+.text-scratchpad {
+  margin: 5px;
+  padding: 2px;
+  width: 75vw;
+  height: 63vh;
+  scrollbar-color: gray;
+  scrollbar-width: thin;
 }

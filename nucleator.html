@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+  <title>Tools -- The Idea Nucleator</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="text/javascript" src="scripts/nucleator.js"></script>
+</head>
+  <body>
+    <div class="grid-container">
+      <div class="nav-menu">
+        <img src="images/journey.svg" alt="alt text">
+		<a href="index.html">Home</a>
+        <a href="thoughts.html">Thoughts</a>
+        <a href="tools.html">Tools</a>
+      </div>
+      <div class="content-box">
+	    <div class="content-text">
+          <p><b>The Idea Nucleator</b></p>
+		  <p>What use is it to write ideas down if they're hard to review and expand?</p>
+          <p>Press <button class="nucleate-styled" id="nucleate-button" onclick="nucleate();">Nucleate</button> to bring up a stored idea.</p>
+          <p>Press <button class="keep-styled" id="keep-button" onclick="keep_idea();">Keep</button> to store the current idea or <button class="clear-styled" id="clear-button" onclick="clear_scratchpad();">Clear</button> to erase the scratchpad.</p>
+          <textarea class="text-scratchpad" id="scratchpad" placeholder=" Nothing here yet... "></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
